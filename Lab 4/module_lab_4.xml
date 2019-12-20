@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_lab_4" default="compile.module.lab_4">
+  <dirname property="module.lab_4.basedir" file="${ant.file.module_lab_4}"/>
+  
+  <property name="module.jdk.home.lab_4" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.lab_4" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.lab_4" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.lab_4" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="lab_4.output.dir" value="${module.lab_4.basedir}/out/production/Lab 4"/>
+  <property name="lab_4.testoutput.dir" value="${module.lab_4.basedir}/out/test/Lab 4"/>
+  
+  <path id="lab_4.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="lab_4.module.production.classpath">
+    <path refid="${module.jdk.classpath.lab_4}"/>
+  </path>
+  
+  <path id="lab_4.runtime.production.module.classpath">
+    <pathelement location="${lab_4.output.dir}"/>
+  </path>
+  
+  <path id="lab_4.module.classpath">
+    <path refid="${module.jdk.classpath.lab_4}"/>
+    <pathelement location="${lab_4.output.dir}"/>
+  </path>
+  
+  <path id="lab_4.runtime.module.classpath">
+    <pathelement location="${lab_4.testoutput.dir}"/>
+    <pathelement location="${lab_4.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.lab_4">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.lab_4">
+    <patternset refid="excluded.from.module.lab_4"/>
+  </patternset>
+  
+  <path id="lab_4.module.sourcepath">
+    <dirset dir="${module.lab_4.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.lab_4" depends="compile.module.lab_4.production,compile.module.lab_4.tests" description="Compile module Lab 4"/>
+  
+  <target name="compile.module.lab_4.production" depends="register.custom.compilers" description="Compile module Lab 4; production classes">
+    <mkdir dir="${lab_4.output.dir}"/>
+    <javac2 destdir="${lab_4.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.lab_4}/javac">
+      <compilerarg line="${compiler.args.lab_4}"/>
+      <bootclasspath refid="lab_4.module.bootclasspath"/>
+      <classpath refid="lab_4.module.production.classpath"/>
+      <src refid="lab_4.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.lab_4"/>
+    </javac2>
+    
+    <copy todir="${lab_4.output.dir}">
+      <fileset dir="${module.lab_4.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.lab_4.tests" depends="register.custom.compilers,compile.module.lab_4.production" description="compile module Lab 4; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.lab_4" description="cleanup module">
+    <delete dir="${lab_4.output.dir}"/>
+    <delete dir="${lab_4.testoutput.dir}"/>
+  </target>
+</project>

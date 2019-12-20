@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1aa0042-c566-48eb-82bf-5bc882d2ce50" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UYtm0pWWsrYfJwjVT13sfnbId1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="trsul.lab.lab2.trsul.lab.lab2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trsul.lab.lab2.Main" />
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trsul.lab.lab2.animal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1aa0042-c566-48eb-82bf-5bc882d2ce50" name="Default Changelist" comment="" />
+      <created>1575545511036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575545511036</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="515" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1576251920422">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="515" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1576251920422" />
+    <state x="772" y="279" key="#com.intellij.ide.util.MemberChooser/0.36.1920.1044@0.36.1920.1044" timestamp="1575634024087" />
+    <state x="478" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575649614665">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="478" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1575649614665" />
+    <state x="447" y="48" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1575649698766">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="447" y="48" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1575649698766" />
+    <state x="671" y="231" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1575547550310" />
+    <state x="742" y="447" width="435" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575547787351">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="742" y="447" width="435" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.36.1920.1044@0.36.1920.1044" timestamp="1575547787351" />
+    <state x="372" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575650355682">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1575650355682" />
+    <state x="498" y="184" key="FileChooserDialogImpl" timestamp="1576251655485">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="498" y="184" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576251655485" />
+    <state x="747" y="318" key="FileChooserDialogImpl/0.36.1920.1044@0.36.1920.1044" timestamp="1575640920998" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1576311760855">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576311760855" />
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1575640923257" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1576311760855">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1576311760855" />
+    <state width="1874" height="284" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1575640923257" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1576311760855">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1576311760855" />
+    <state width="1874" height="284" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1575640923256" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1576311760855">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576311760855" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1575640923257" />
+    <state x="151" y="0" key="SettingsEditor" timestamp="1576252886909">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="151" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1576252886909" />
+    <state x="545" y="311" key="caller.chooser.dialog" timestamp="1575632495189">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="545" y="311" key="caller.chooser.dialog/0.36.1920.1044@0.36.1920.1044" timestamp="1575632495189" />
+    <state x="426" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1576251353711">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="426" y="230" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576251353711" />
+    <state x="639" y="389" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1575626166178" />
+    <state x="667" y="188" key="refactoring.ChangeSignatureDialog" timestamp="1575551938381">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="667" y="188" key="refactoring.ChangeSignatureDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1575551938381" />
+    <state x="298" y="152" key="run.anything.popup" timestamp="1576238651296">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="298" y="152" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1576238651296" />
+    <state x="415" y="150" width="672" height="442" key="search.everywhere.popup" timestamp="1576252591652">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="415" y="150" width="672" height="442" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1576252591652" />
+    <state x="623" y="267" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1575554583380" />
+  </component>
+</project>
